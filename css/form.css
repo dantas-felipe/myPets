@@ -1,0 +1,96 @@
+/*FORMULÁRIO DE LOGIN*/
+.login_form{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:rgba(0,0,0,.6);
+	z-index:9999;
+	display:none;
+}
+.login_form form{
+	width:50%;
+	margin:10% auto auto auto;
+	background-color:#fff;
+	padding:40px;
+	position:relative;
+}
+.login_form form h2{
+	font-size:1.5rem;
+	font-weight:bold;
+}
+.login_form form input{
+	display:block;
+	margin-top:10px;
+}
+.login_form form input[type="text"]{
+	margin-top:30px;
+}
+.login_form form input[type="text"],
+.login_form form input[type="password"]{
+	padding:8px 15px;
+	width:100%;
+	outline-color:var(--color-button-acesso);
+	color:#777;
+	font-size:1.1rem;
+}
+.login_form form input[type="submit"]{
+	font-size:1.1rem;
+	border-radius:50px;
+	background-color: var(--color-button-acesso);
+	cursor:pointer;
+	color: #fff;
+	border: none;
+	width: 150px;
+	height: 50px;
+	align-items: center;
+}
+.login_form form input[type="submit"]:hover{
+	background-color: var(--color-button-add);
+	color: black;
+	font-weight: bold;
+}
+.login_form form a{
+	color:var(--color-button-acesso);
+	display:inline-block;
+	margin-top:10px;
+}
+.login_form form span{
+	position:absolute;
+	top:20px;
+	right:30px;
+	color:#888;
+	font-weight:bold;
+	font-size:1.5rem;
+	cursor:pointer;
+}
+.login_form form span:hover{color:red;}
+.show_login{display:block;}
+
+/*FORM AGENDAMENTO*/
+input, select, textarea, button {
+	align-items: center;
+    width: 70%;
+    padding: 1rem;
+    margin: 12px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+button{
+	background-color: #818dff;
+    font-size: 1rem;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 10px;
+    transition: trasnform 200ms ease;
+}
+
+button:hover{
+	transform: scale(1.1);
+    cursor: pointer;
+}

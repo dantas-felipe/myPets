@@ -1,0 +1,36 @@
+:root{
+    --color-background: #d4d4d4;
+    --color-button-acesso: #818dff;
+    --color-button-delete: #ff1a1a;
+    --color-button-edit: #1af1ff;
+    --color-button-add: #1aff30;
+    --color-navbar: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--color-background);
+}
+
+.top{
+    position: fixed;
+    padding: 20px;
+    right: 0;
+    background-color: var(--color-navbar);
+    bottom: 50px;
+    color: #000000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+}
